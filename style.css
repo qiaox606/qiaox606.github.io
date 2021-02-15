@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Abril Fatface', cursive;
+  margin: 2em;
+  background-color:#FBBDB9;
+  
+}
+
+h1{
+  color:  #F83E32;
+  font-size: 90px;
+  text-align: center;
+  padding-top: 10%;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  word-spacing: 10px;
+}
+
+h2{
+  color:  #F83E32;
+  font-size: 60px;
+  position: absolute;
+  right: 900px;
+  width: 300px;
+  padding: 10px;
+  writing-mode: vertical-rl;
+}
+
+h3{
+  color:  #F83E32;
+  font-size: 60px;
+  position: absolute;
+  right: 400px;
+  width: 300px;
+  padding: 10px;
+  writing-mode: vertical-rl;
+}
+
+ol{
+  font-size: 20px;
+  position: absolute;
+  left: 350px;
+  width: 300px;
+  padding: 10px;
+  line-height: 2;
+  color: white;
+  text-decoration: none;
+}
+
+
+h4{
+  color:  #F83E32;
+  top: 600px;
+  right: 70px;
+  width: 300px;
+  padding: 10px;
+}
+
+ul{
+  position: absolute;
+  right: 70px;
+  width: 330px;
+  padding: 10px;
+  line-height: 1.5;
+  color:white;
+}
+
+ol:hover {
+  text-decoration: none;
+  color: #ff005d;
+}
+
+li{
+    display:grid;
+    font-weight:-200;
+  line-height: 1.5;
+  color: #000000;
+}
+
