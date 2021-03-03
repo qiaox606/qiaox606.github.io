@@ -1,41 +1,61 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Overpass Mono', monospace;
   margin: 2em;
-  background-color:#FBBDB9;
-  
+  background-color:#FEF5E7;
 }
 
-h1{
-  color:  #F83E32;
-  font-size: 90px;
-  text-align: center;
-  padding-top: 10%;
-  padding-right: 30px;
-  padding-bottom: 10px;
-  padding-left: 80px;
-  word-spacing: 10px;
+
+p{
+  color: black;
+  font-size: 40px;
+  text-align: left;
+  margin-top:20%;
+  margin-left:40%;
+}
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto black;
+    border-right: 2px solid black;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+
+@keyframes blinkTextCursor{
+  from{border-right-color: black;}
+  to{border-right-color: transparent;}
 }
 
 h2{
-  color:  #F83E32;
-  font-size: 60px;
+  color: black;
+  font-size: 30px;
   position: absolute;
-  right: 900px;
-  width: 300px;
-  padding: 10px;
-  writing-mode: vertical-rl;
+  bottom: 148px;
+  left: 13%;
 }
 
 h3{
-  color:  #F83E32;
-  font-size: 60px;
+  color:  black;
+  font-size: 30px;
   position: absolute;
-  right: 400px;
-  width: 300px;
-  padding: 10px;
-  writing-mode: vertical-rl;
+  bottom: 88px;
+  left: 13%;
 }
 
 ol{
@@ -50,36 +70,23 @@ ol{
 }
 
 
-h4{
-  color:  #F83E32;
-  top: 600px;
-  right: 70px;
-  width: 300px;
-  padding: 10px;
-}
-
-ul{
-  position: absolute;
-  right: 70px;
-  width: 330px;
-  padding: 10px;
-  line-height: 1.5;
-  color:white;
-}
 
 a:link {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
+  background-color:#F4D03F;
   text-decoration: none;
-  color: #ff005d;
 }
 
-ol:hover {
-  text-decoration: none;
-  color: #ff005d;
+a:visited{
+  color:black;
+}
+
+a:active{
+  color:black;
 }
 
 li{
